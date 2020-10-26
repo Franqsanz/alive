@@ -1,0 +1,23 @@
+{
+  "name": "Alive",
+  "cursorColor": "#FCC700",
+  "selectionBackground": "#44475A",
+  "background": "#111111",
+  "foreground": "#e3e3e3",
+  "black": "#1A1A1A",
+  "blue": "#61AFEF",
+  "cyan": "#0997B3",
+  "green": "#00ff00",
+  "purple": "#FF79C6",
+  "red": "#800000",
+  "white": "#F8F8F2",
+  "yellow": "#FCC700",
+  "brightBlack": "#6272A4",
+  "brightBlue": "#D6ACFF",
+  "brightCyan": "#A4FFFF",
+  "brightGreen": "#00FF00",
+  "brightPurple": "#FF00FF",
+  "brightRed": "#FF0000",
+  "brightWhite": "#FFFFFF",
+  "brightYellow": "#FCC700"
+}
