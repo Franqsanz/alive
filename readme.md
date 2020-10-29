@@ -19,22 +19,22 @@ Ejemplo:
     "name": "Alive",
     "cursorColor": "#FCC700",
     "selectionBackground": "#44475A",
-    "background": "#111111",
+    "background": "#011422",
     "foreground": "#e3e3e3",
     "black": "#1A1A1A",
     "blue": "#61AFEF",
-    "cyan": "#0997B3",
+    "cyan": "#ff6800",
     "green": "#00ff00",
     "purple": "#FF79C6",
     "red": "#800000",
     "white": "#F8F8F2",
     "yellow": "#FCC700",
-    "brightBlack": "#4059FF",
+    "brightBlack": "#3A66FF",
     "brightBlue": "#DD23C8",
     "brightCyan": "#A4FFFF",
     "brightGreen": "#00FF00",
     "brightPurple": "#FF00FF",
-    "brightRed": "#FF0000",
+    "brightRed": "#FF2525",
     "brightWhite": "#FFFFFF",
     "brightYellow": "#FCC700"
   }
@@ -58,12 +58,13 @@ Ejemplo:
 ```
 
 ### Recomendación
-Recomiendo las siguientes opciones de configuración para el terminal:
+Recomiendo las siguientes opciones de configuración para el terminal, esta es mí preferencia personal pero quizás te guste.
 
 ```json
 {
   "profiles": [
     {
+      "colorScheme": "Alive",
       "cursorShape": "filledBox",
       "fontFace": "operator mono",
       "fontSize": 15,
