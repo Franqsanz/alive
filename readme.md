@@ -1,6 +1,10 @@
 # Alive for [Windows Terminal](https://github.com/microsoft/terminal)
 Mi tema oscuro para Windows Terminal.
 
+![screenshot1](./img/1.png)
+![screenshot2](./img/2.png)
+![screenshot3](./img/3.png)
+
 ### Descarga
 Descargue el repositorio comprimido desde aquí o copié el esquema del tema.
 
@@ -25,8 +29,8 @@ Ejemplo:
     "red": "#800000",
     "white": "#F8F8F2",
     "yellow": "#FCC700",
-    "brightBlack": "#6272A4",
-    "brightBlue": "#D6ACFF",
+    "brightBlack": "#4059FF",
+    "brightBlue": "#DD23C8",
     "brightCyan": "#A4FFFF",
     "brightGreen": "#00FF00",
     "brightPurple": "#FF00FF",
