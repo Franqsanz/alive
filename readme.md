@@ -1,12 +1,12 @@
 # Alive for [Windows Terminal](https://github.com/microsoft/terminal)
-Mi tema oscuro para Windows Terminal.
+🎨 Mi tema oscuro para Windows Terminal.
 
 ![screenshot1](./img/1.png)
 ![screenshot2](./img/2.png)
 ![screenshot3](./img/3.png)
 
 ### Descarga
-Descargue el repositorio comprimido desde aquí o copié el esquema del tema.
+Descargue el repositorio comprimido desde aquí o copié el esquema.
 
 ### Instalación
 Pegue en `schemes` el `alive.json` en su configuración de Windows Terminal. Para abrir la configuración presioné `Ctrl + ,`, esto le abrirá el `settings.json`.
@@ -42,7 +42,6 @@ Ejemplo:
 ```
 
 ### Activar
-
 Solo debe colocar el nombre del `schemes` en los `profiles`.
 
 Ejemplo:
