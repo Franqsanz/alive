@@ -1,47 +1,53 @@
 # Alive for [Windows Terminal](https://github.com/microsoft/terminal)
-🎨 Mi tema oscuro para Windows Terminal.
+🎨 Mi tema oscuro para Windows Terminal. Inspirado en el tema Dracula y Cobalt2.
 
 ![screenshot1](./img/1.png)
 ![screenshot2](./img/2.png)
 ![screenshot3](./img/3.png)
+![screenshot4](./img/4.png)
 
 ### Descarga
 Descargue el repositorio comprimido desde aquí o copié el esquema.
 
 ### Instalación
-Pegue en `schemes` el `alive.json` en su configuración de Windows Terminal. Para abrir la configuración presioné `Ctrl + ,`, esto le abrirá el `settings.json`.
+Pegue en `schemes` el `alive.json` en su configuración de Windows Terminal. Para abrir la configuración presioné `Ctrl + ,` o presione en abrir una nueva pestaña y luego navegue hasta "Configuración"
+![screenshot5](./img/5.png)
+Esto le abrirá lo siguiente:
+![screenshot6](./img/6.png)
+Luego navegue hasta "Combinaciones de colores"
+![screenshot7](./img/7.png)
 
-Ejemplo:
+## Esquema de colores
 
 ```json
 "schemes": [
   {
     "name": "Alive",
-    "cursorColor": "#FFC700",
-    "selectionBackground": "#44475A",
-    "background": "#011422",
-    "foreground": "#E3E3E3",
-    "black": "#1A1A1A",
+    "background": "#01131F",
+    "black": "#000000",
     "blue": "#127ACE",
-    "cyan": "#FF6800",
-    "green": "#00ff00",
-    "purple": "#FF79C6",
-    "red": "#BF0505",
-    "white": "#F8F8F2",
-    "yellow": "#FFC700",
-    "brightBlack": "#3A66FF",
-    "brightBlue": "#DD23C8",
-    "brightCyan": "#A4FFFF",
-    "brightGreen": "#00FF00",
+    "brightBlack": "#079BFF",
+    "brightBlue": "#0028A3",
+    "brightCyan": "#FF8D39",
+    "brightGreen": "#00AD00",
     "brightPurple": "#FF00FF",
-    "brightRed": "#FF2525",
+    "brightRed": "#FF3131",
     "brightWhite": "#FFFFFF",
-    "brightYellow": "#FCC700"
+    "brightYellow": "#FFC700",
+    "cursorColor": "#FFC700",
+    "cyan": "#FF8400",
+    "foreground": "#FFFFFF",
+    "green": "#00FF00",
+    "purple": "#FF0082",
+    "red": "#E30B0B",
+    "white": "#FFFFFF",
+    "yellow": "#FFC700",
+    "selectionBackground": "#000000"
   }
 ]
 ```
 
-### Activar
+### Activar desde el JSON
 Solo debe colocar el nombre del `schemes` en los `profiles`.
 
 Ejemplo:
@@ -57,7 +63,7 @@ Ejemplo:
 ```
 
 ### Recomendación
-Recomiendo las siguientes opciones de configuración para el terminal, esta es mí preferencia personal pero quizás te guste.
+Esta es mí preferencia personal pero quizás te guste.
 
 ```json
 {
@@ -65,10 +71,16 @@ Recomiendo las siguientes opciones de configuración para el terminal, esta es m
     {
       "colorScheme": "Alive",
       "cursorShape": "filledBox",
-      "fontFace": "operator mono",
-      "fontSize": 15,
-      "padding": "15, 0, 0, 0",
+      "fontFace": "Inconsolata for Powerline",
+      "fontSize": 16,
+      "padding": "15, 15, 0, 15",
     }
   ]
 }
 ```
+
+### Fuentes que te pueden gustar
+
+* MesloLGS NF
+* Cascadia Code PL
+* Inconsolata for Powerline
