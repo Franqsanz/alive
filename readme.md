@@ -1,5 +1,5 @@
 # Alive for [Windows Terminal](https://github.com/microsoft/terminal)
-🎨 Mi tema oscuro para Windows Terminal. Inspirado en el tema Dracula y Cobalt2.
+🎨 Mi tema oscuro para Windows Terminal. Inspirado en el tema [Cobalt2](https://github.com/wesbos/cobalt2-vscode).
 
 ![screenshot1](./img/1.png)
 ![screenshot2](./img/2.png)
@@ -17,7 +17,7 @@ Esto le abrirá lo siguiente:
 Luego navegue hasta "Combinaciones de colores"
 ![screenshot7](./img/7.png)
 
-## Esquema de colores
+### Esquema de colores
 
 ```json
 "schemes": [
@@ -27,13 +27,13 @@ Luego navegue hasta "Combinaciones de colores"
     "black": "#000000",
     "blue": "#127ACE",
     "brightBlack": "#079BFF",
-    "brightBlue": "#0028A3",
+    "brightBlue": "#0045FF",
     "brightCyan": "#FF8D39",
     "brightGreen": "#00AD00",
     "brightPurple": "#FF00FF",
     "brightRed": "#FF3131",
     "brightWhite": "#FFFFFF",
-    "brightYellow": "#FFC700",
+    "brightYellow": "#FFF11B",
     "cursorColor": "#FFC700",
     "cyan": "#FF8400",
     "foreground": "#FFFFFF",
@@ -79,8 +79,7 @@ Esta es mí preferencia personal pero quizás te guste.
 }
 ```
 
-### Fuentes que te pueden gustar
-
+### Fuentes recomendadas
 * MesloLGS NF
 * Cascadia Code PL
 * Inconsolata for Powerline
