@@ -48,17 +48,19 @@ Luego navegue hasta "Combinaciones de colores"
 ```
 
 ### Activar desde el JSON
-Solo debe colocar el nombre del `schemes` en los `profiles`.
+Solo debe colocar el nombre del `schemes` en el campo `list` que se encuentra dentro del campo `profiles`.
 
 Ejemplo:
 
 ```json
 {
-  "profiles": [
-    {
-      "colorScheme": "Alive",
-    }
-  ]
+  "profiles": {
+    "list": [
+      {
+        "colorScheme": "Alive",
+      }
+    ]
+  }
 }
 ```
 
@@ -67,15 +69,19 @@ Esta es mí preferencia personal pero quizás te guste.
 
 ```json
 {
-  "profiles": [
-    {
-      "colorScheme": "Alive",
-      "cursorShape": "filledBox",
-      "fontFace": "Inconsolata for Powerline",
-      "fontSize": 16,
-      "padding": "15, 15, 0, 15",
-    }
-  ]
+  "profiles": {
+    "list": [
+      {
+        "colorScheme": "Alive",
+        "cursorShape": "filledBox",
+        "font": {
+          "face": "Inconsolata for Powerline",
+          "size": 16
+        },
+        "padding": "15, 0, 0, 15",
+      }
+    ]
+  }
 }
 ```
 
